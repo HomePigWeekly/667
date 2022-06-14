@@ -4,7 +4,7 @@
 
 ## 学生列表
 
-[点击这里](students.html)
+[点击这里](students/)
 
 ## 临时功能
 
