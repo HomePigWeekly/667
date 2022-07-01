@@ -36,6 +36,16 @@
 
 [点击这里](students/)
 
+## 历史信息
+
+### 座位表
+
+[点击这里](history/zwb)
+
+### 班规
+
+[点击这里](history/rules)
+
 ## 临时功能
 
 [积分查询系统](https://408491.yichafen.com/)
