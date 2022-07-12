@@ -16,17 +16,21 @@
 
 ## 学生列表
 
-[点击这里](students/)
+[点击这里](/students/)
 
 ## 历史信息
 
 ### 座位表
 
-[点击这里](history/zwb)
+[点击这里](/history/zwb)
 
 ### 班规
 
-[点击这里](history/rules)
+[点击这里](/history/rules)
+
+## 加入网站运营团队
+
+[了解详情](/guidance/join_us/)
 
 ## 临时功能
 
