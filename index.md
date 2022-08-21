@@ -51,7 +51,3 @@
 ### 李子晗
 
 <lizihan@homepigweekly.cn>
-
-## 意见反馈
-
-<script type='text/javascript' src='https://www.wjx.cn/handler/jqemed.ashx?activity=tIaI7RZ&width=760&source=iframe'></script>
