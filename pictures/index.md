@@ -6,7 +6,11 @@
 
 [点击这里](https://www.aliyundrive.com/s/RyTFHH2MUQd)
 
-[提取码](getCode.html?k=1)
+[提取码](/pages/getCode.html?k=1)
+
+## 数据批量下载
+
+[点击这里](/history/data/)
 
 ## 网站管理员
 

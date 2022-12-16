@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>获取文件密码</title>
+        <script src="/script/check.js"></script>
+        <script src="/script/shareCode.js"></script>
+        <script>
+            function buttonCheck(){
+                clearTimeout(timeout)
+                clearInterval(interval);
+                a1 = document.getElementById("a1").value;
+                a2 = document.getElementById("a2").value;
+                a3 = document.getElementById("a3").value;
+                a4 = document.getElementById("a4").value;
+                a5 = document.getElementById("a5").value;
+                document.writeln("答案已提交");
+                if(checkAnswer(k1,a1)&&checkAnswer(k2,a2)&&checkAnswer(k3,a3)&&checkAnswer(k4,a4)&&checkAnswer(k5,a5)){
+                    document.writeln("正确");
+                    let params = new URLSearchParams(location.search);
+                        if (params.has('k')) {
+                            let k = parseInt(params.get('k'),10);
+                            document.writeln(getShareCode(k));
+                        }
+                } else {
+                    document.writeln("错误")
+                }
+            }
+        </script>
+    </head>
+    <body style="padding: 10;">
+        <h1>获取文件密码 [<a id="t">90</a>s]</h1>
+        <h2>请在90秒内回答以下5个问题:</h2>
+        <hr />
+        <p id="q1"></p>
+        <input name="a1" id="a1" type="text"/>
+        <hr />
+        <p id="q2"></p>
+        <input name="a2" id="a2" type="text"/>
+        <hr />
+        <p id="q3"></p>
+        <input name="a3" id="a3" type="text"/>
+        <hr />
+        <p id="q4"></p>
+        <input name="a4" id="a4" type="text"/>
+        <hr />
+        <p id="q5"></p>
+        <input name="a5" id="a5" type="text"/>
+        <hr />
+        <button onclick="buttonCheck();">提交</button>
+        <script>
+            k1 = Math.floor(Math.random()*60)
+            do{
+                k2 = Math.floor(Math.random()*60)
+            }while(k2==k1);
+            do{
+                k3 = Math.floor(Math.random()*60)
+            }while(k3==k1||k3==k2);
+            do{
+                k4 = Math.floor(Math.random()*60)
+            }while(k4==k1||k4==k2||k4==k3);
+            do{
+                k5 = Math.floor(Math.random()*60)
+            }while(k5==k1||k5==k2||k5==k3||k5==k4);
+            document.getElementById("q1").innerText = getQuestion(k1)
+            document.getElementById("q2").innerText = getQuestion(k2)
+            document.getElementById("q3").innerText = getQuestion(k3)
+            document.getElementById("q4").innerText = getQuestion(k4)
+            document.getElementById("q5").innerText = getQuestion(k5)
+            timeout = setTimeout(function (){
+                clearInterval();
+                document.clear();
+                document.writeln("超时");
+                location.reload();
+            },90000)
+            interval = setInterval(function (){
+                document.getElementById("t").innerText = parseInt(document.getElementById("t").innerText,10)-1;
+                if(parseInt(document.getElementById("t").innerText,10)==0){
+                    clearInterval();
+                }
+            },1000)
+        </script>
+    </body>
+</html>
