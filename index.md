@@ -12,7 +12,7 @@
 
 [上传学生联系方式](https://docs.qq.com/form/page/DS2tkRHJxeWVyUVZo)
 
-## 制作自己的个人介绍页面
+### 制作自己的个人介绍页面
 
 我们建议学生制作自己的个人介绍页面。
 
