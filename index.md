@@ -10,6 +10,7 @@
 - [对学生进行实名评价](https://docs.qq.com/form/page/DS01sbmZZY01sRVZm)
 - [对学生进行匿名评价](https://www.wjx.cn/vj/wjt0A0z.aspx)
 - [上传学生联系方式](https://docs.qq.com/form/page/DS2tkRHJxeWVyUVZo)
+- [授权公开录取结果](https://docs.qq.com/form/page/DS2lBWUdFdHlubWZK)
 - [制作个人介绍页面](/guidance/personal_pages/)
 
 ## 照片
