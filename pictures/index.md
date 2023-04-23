@@ -4,6 +4,10 @@
 
 ### 主相册
 
+这个相册并没有包含所有照片
+
+如果你同意或不同意公开包含你的全部或部分照片，请联系网站管理员
+
 [点击这里](https://www.aliyundrive.com/s/RyTFHH2MUQd)
 
 [提取码](/pages/getCode.html?k=1)
