@@ -26,9 +26,8 @@
 
 - http://hplzh.gitee.io/667/
 - 使用 Gitee Pages 域名
-- 指向 Gitee Pages 站点（未开通）
-- 404 Not Found
-- 由于 Gitee 实名认证过于复杂，此站点未开通
+- 指向 Gitee Pages 站点
+- Gitee 已关闭 Gitee Pages 服务，此二维码不可用
 
 ## 网站管理员
 
